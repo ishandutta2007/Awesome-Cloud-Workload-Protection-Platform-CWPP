@@ -20,7 +20,7 @@
 
 Modern enterprise workloads span virtual machines, Kubernetes clusters, serverless containers, and hybrid data centers. **Cloud Workload Protection Platforms (CWPP)** safeguard workloads at runtime—detecting and intercepting ransomware, cryptomining, container escapes, fileless exploits, and privilege escalations.
 
-This repository catalogs industry-leading **SaaS enterprise suites** (with granular pricing and trial terms) and battle-tested **open-source security engines** (sorted by GitHub star count).
+This repository catalogs industry-leading **SaaS enterprise suites** (with granular pricing and trial terms) and battle-tested **open-source security engines** (sorted by GitHub Stars_Count).
 
 ## 📑 Table of Contents
 
@@ -53,64 +53,64 @@ The global Cloud Workload Protection Platform (CWPP) market is estimated at appr
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore top-tier open-source Cloud Workload Protection Platforms, runtime security sensors, eBPF telemetry hooks, and Kubernetes security engines sorted by GitHub community star count:
+Explore top-tier open-source Cloud Workload Protection Platforms, runtime security sensors, eBPF telemetry hooks, and Kubernetes security engines sorted by GitHub community Stars_Count:
 
-1. **[Trivy](https://github.com/aquasecurity/trivy)** [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)
+1. **[Trivy](https://github.com/aquasecurity/trivy)** [![GitHub_Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)
    - **Vulnerability, Misconfiguration & SBOM Scanner** (Apache-2.0, CNCF) — The most widely deployed security scanner for container images, file systems, Git repositories, virtual machine disks, and Kubernetes clusters.
    - **Capabilities**: Comprehensive shift-left and runtime scanning, CVE detection, SBOM generation (SPDX/CycloneDX), secret detection, and Kubernetes cluster scanning via Trivy Operator.
    - **Tech Stack**: Go | **Deployment**: CLI, CI/CD pipeline, Kubernetes Operator | **Best for**: Shift-left container security and vulnerability auditing.
 
-2. **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)
+2. **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub_Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)
    - **Open-Source XDR & SIEM Workload Protection** (GPL-2.0) — Unified host-based workload protection providing runtime security monitoring, file integrity monitoring (FIM), intrusion detection (HIDS), and compliance verification across physical, virtual, and cloud workloads.
    - **Capabilities**: Active response to terminate threats, vulnerability detection, log data analysis, regulatory compliance monitoring (PCI DSS, HIPAA, CIS Benchmarks), and multi-cloud telemetry.
    - **Tech Stack**: C, Python, Go | **Deployment**: Agent on Linux/Windows/macOS, central indexer/server | **Best for**: Unified host workload defense and compliance across hybrid cloud infrastructure.
 
-3. **[Kubescape](https://github.com/kubescape/kubescape)** [![GitHub stars](https://img.shields.io/github/stars/kubescape/kubescape?style=social&color=white)](https://github.com/kubescape/kubescape/stargazers)
+3. **[Kubescape](https://github.com/kubescape/kubescape)** [![GitHub_Stars](https://img.shields.io/github/stars/kubescape/kubescape?style=social&color=white)](https://github.com/kubescape/kubescape/stargazers)
    - **Kubernetes Open-Source Security Platform** (Apache-2.0, CNCF Incubating) — Provides multi-cloud Kubernetes posture management, container scanning, and runtime threat detection powered by eBPF.
    - **Capabilities**: Risk scoring, CIS benchmark compliance, RBAC visualization, image vulnerability scanning, network policy generation, and eBPF runtime malware detection.
    - **Tech Stack**: Go | **Deployment**: CLI, Helm chart, In-cluster operator | **Best for**: Dedicated, end-to-end Kubernetes cluster and workload hardening.
 
-4. **[Falco](https://github.com/falcosecurity/falco)** [![GitHub stars](https://img.shields.io/github/stars/falcosecurity/falco?style=social&color=white)](https://github.com/falcosecurity/falco/stargazers)
+4. **[Falco](https://github.com/falcosecurity/falco)** [![GitHub_Stars](https://img.shields.io/github/stars/falcosecurity/falco?style=social&color=white)](https://github.com/falcosecurity/falco/stargazers)
    - **Cloud-Native Runtime Threat Detection Engine** (Apache-2.0, CNCF Graduated) — The industry standard for Linux and Kubernetes runtime behavioral security and system call inspection.
    - **Capabilities**: Kernel system call monitoring via eBPF/kmod, rich YAML rule language mapping to MITRE ATT&CK, plugin ecosystem for AWS CloudTrail/Okta/GitHub audit logs, and 100+ alert forwarding integrations.
    - **Tech Stack**: C++, Go | **Deployment**: DaemonSet on K8s, standalone package | **Best for**: Real-time detection of container escapes, reverse shells, privilege escalations, and cryptojackers.
 
-5. **[Kyverno](https://github.com/kyverno/kyverno)** [![GitHub stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social&color=white)](https://github.com/kyverno/kyverno/stargazers)
+5. **[Kyverno](https://github.com/kyverno/kyverno)** [![GitHub_Stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social&color=white)](https://github.com/kyverno/kyverno/stargazers)
    - **Cloud-Native Kubernetes Policy Engine** (Apache-2.0, CNCF Graduated) — Purpose-built policy engine for Kubernetes admission control, runtime workload policy validation, mutation, and generation without requiring learning complex DSLs.
    - **Capabilities**: Enforces security best practices (blocking root containers, validating read-only root filesystems), verifies container image signatures via Sigstore/Cosign, and generates cleanup policies.
    - **Tech Stack**: Go | **Deployment**: In-cluster Kubernetes admission controller | **Best for**: Enforcing security guardrails and supply-chain verification at the Kubernetes admission gate.
 
-6. **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)
+6. **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub_Stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)
    - **Rules Engine for Cloud Security & Compliance** (Apache-2.0, CNCF) — Lightweight governance engine for managing public cloud workloads across AWS, Azure, and GCP through simple YAML policies.
    - **Capabilities**: Real-time compliance monitoring, resource inventory filtering, automated remediation (tagging, stopping unencrypted instances, quarantining security groups), and cost controls.
    - **Tech Stack**: Python | **Deployment**: Serverless functions (AWS Lambda/Cloud Functions), CLI, CI/CD | **Best for**: Multi-cloud workload posture management and automated resource remediation.
 
-7. **[Tetragon](https://github.com/cilium/tetragon)** [![GitHub stars](https://img.shields.io/github/stars/cilium/tetragon?style=social&color=white)](https://github.com/cilium/tetragon/stargazers)
+7. **[Tetragon](https://github.com/cilium/tetragon)** [![GitHub_Stars](https://img.shields.io/github/stars/cilium/tetragon?style=social&color=white)](https://github.com/cilium/tetragon/stargazers)
    - **eBPF-Based Security Observability & Runtime Enforcement** (Apache-2.0, Cilium/Isovalent) — High-performance kernel-level runtime enforcement engine with real-time kill capabilities.
    - **Capabilities**: In-kernel process termination (stops threats before syscall completion), deep Kubernetes-aware process, namespace, and network visibility, and declarative TracingPolicy CRDs.
    - **Tech Stack**: Go, C (eBPF) | **Deployment**: Kubernetes DaemonSet | **Best for**: Low-overhead runtime blocking and real-time active containment at the kernel boundary.
 
-8. **[Tracee](https://github.com/aquasecurity/tracee)** [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/tracee?style=social&color=white)](https://github.com/aquasecurity/tracee/stargazers)
+8. **[Tracee](https://github.com/aquasecurity/tracee)** [![GitHub_Stars](https://img.shields.io/github/stars/aquasecurity/tracee?style=social&color=white)](https://github.com/aquasecurity/tracee/stargazers)
    - **eBPF Runtime Security & Forensics Sensor** (Apache-2.0, Aqua Security) — Collects rich system-level telemetry and detects suspicious runtime behaviors in real time.
    - **Capabilities**: Signature engine written in Go and Rego, detection of fileless execution, memory injection, kernel exploits, container escapes, and rich forensic timeline generation.
    - **Tech Stack**: Go, C (eBPF) | **Deployment**: Container, CLI, DaemonSet | **Best for**: Threat investigation, forensic capture, and eBPF-based container threat intelligence.
 
-9. **[Gatekeeper](https://github.com/open-policy-agent/gatekeeper)** [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/gatekeeper?style=social&color=white)](https://github.com/open-policy-agent/gatekeeper/stargazers)
+9. **[Gatekeeper](https://github.com/open-policy-agent/gatekeeper)** [![GitHub_Stars](https://img.shields.io/github/stars/open-policy-agent/gatekeeper?style=social&color=white)](https://github.com/open-policy-agent/gatekeeper/stargazers)
    - **OPA-Driven Policy Controller for Kubernetes** (Apache-2.0, CNCF) — Enforces declarative policies and security constraints on cloud workloads using Open Policy Agent (OPA) and Rego.
    - **Capabilities**: Validating and mutating webhook enforcement, continuous audit of existing Kubernetes resources against security policies, and parameterized ConstraintTemplates.
    - **Tech Stack**: Go, Rego | **Deployment**: In-cluster admission controller | **Best for**: Enterprises standardizing policy-as-code across heterogeneous cloud environments.
 
-10. **[KubeArmor](https://github.com/kubearmor/KubeArmor)** [![GitHub stars](https://img.shields.io/github/stars/kubearmor/KubeArmor)](https://github.com/kubearmor/KubeArmor/stargazers)
+10. **[KubeArmor](https://github.com/kubearmor/KubeArmor)** [![GitHub_Stars](https://img.shields.io/github/stars/kubearmor/KubeArmor)](https://github.com/kubearmor/KubeArmor/stargazers)
     - **LSM-Based Container Runtime Policy Enforcement** (Apache-2.0, CNCF Sandbox) — Enforces least-privilege access controls at the Linux Security Modules (AppArmor, SELinux, BPF-LSM) layer.
     - **Capabilities**: Restricts process execution, sensitive file access, and socket creation within pods; telemetry exporting via gRPC to SIEM/observability systems; zero-trust runtime policy engine.
     - **Tech Stack**: Go, C | **Deployment**: Kubernetes DaemonSet | **Best for**: Kernel-enforced zero-trust sandboxing and workload isolation.
 
-11. **[NeuVector](https://github.com/neuvector/neuvector)** [![GitHub stars](https://img.shields.io/github/stars/neuvector/neuvector?style=social&color=white)](https://github.com/neuvector/neuvector/stargazers)
+11. **[NeuVector](https://github.com/neuvector/neuvector)** [![GitHub_Stars](https://img.shields.io/github/stars/neuvector/neuvector?style=social&color=white)](https://github.com/neuvector/neuvector/stargazers)
     - **Full-Lifecycle Container Security Platform** (Apache-2.0, SUSE) — Open-source end-to-end container security featuring Layer 7 container firewalling, vulnerability management, and runtime protection.
     - **Capabilities**: Deep packet inspection (DPI) container firewall, behavioral baselining, automated process and file integrity protection, and CIS benchmark scanning.
     - **Tech Stack**: C, C++, Go | **Deployment**: Kubernetes DaemonSet/Operator | **Best for**: Full-stack container network security, runtime firewalling, and packet-level inspection.
 
-12. **[container-runtime-security](https://github.com/aiagentmackenzie-lang/container-runtime-security)** [![GitHub stars](https://img.shields.io/github/stars/aiagentmackenzie-lang/container-runtime-security?style=social&color=white)](https://github.com/aiagentmackenzie-lang/container-runtime-security/stargazers)
+12. **[container-runtime-security](https://github.com/aiagentmackenzie-lang/container-runtime-security)** [![GitHub_Stars](https://img.shields.io/github/stars/aiagentmackenzie-lang/container-runtime-security?style=social&color=white)](https://github.com/aiagentmackenzie-lang/container-runtime-security/stargazers)
     - **eBPF Container Runtime Monitoring & AI Triage** — Real-time event monitoring with multi-signal correlation and AI triage advisory.
     - **Capabilities**: 30 detection rules covering cryptojacking, reverse shells, container drift, and process injection; TC-based network blocking; ~73k events/sec throughput.
     - **Tech Stack**: Go, C (eBPF) | **Deployment**: Kubernetes DaemonSet | **Best for**: AI-assisted eBPF runtime detection and telemetry experimentation.
@@ -126,7 +126,7 @@ Contributions are warmly welcomed! Help keep this guide up-to-date and comprehen
 
 1. 🍴 Fork this repository.
 2. 🌿 Create a feature branch (`git checkout -b feature/new-cwpp-entry`).
-3. 📝 Add or update tools following the existing format (include product name, URL, specific pricing details, free tier terms, or open-source star badges).
+3. 📝 Add or update tools following the existing format (include product name, URL, specific pricing details, free tier terms, or open-source Stars_Badges).
 4. 🚀 Commit your changes and push to your branch.
 5. 📬 Open a descriptive Pull Request.
 
@@ -150,3 +150,12 @@ Thank you for exploring this curated repository! If you find this resource valua
 <p align="center">
   <b>Built with ❤️ for Cloud Security Engineers, Platform Teams, and DevSecOps Practitioners worldwide.</b>
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Cloud-Workload-Protection-Platform-CWPP&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Cloud-Workload-Protection-Platform-CWPP_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Cloud-Workload-Protection-Platform-CWPP_growth.svg">
+  </picture>
+</a>
