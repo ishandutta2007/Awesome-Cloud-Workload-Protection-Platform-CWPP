@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Cloud Workload Protection Platform (CWPP) market is estimated at approximately **$5.7B to $10.3B** (projected to reach over $30B by the early 2030s at an aggressive ~20–23% CAGR), driven by multi-cloud expansion, containerized microservices, and serverless architectures. The sector is **moderately fragmented and intensely competitive** rather than a winner-take-all market, marked by consolidation into CNAPP suites where hyperscalers (like Microsoft Defender for Cloud), pure-play cloud security pioneers (such as Wiz and Aqua Security), and enterprise cybersecurity incumbents (Palo Alto Networks, CrowdStrike, SentinelOne) vie for market share alongside an active open-source ecosystem.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[CrowdStrike Falcon Cloud Workload Protection](https://www.crowdstrike.com/)**
-
-  **Comprehensive breach protection** across private, public, hybrid, and multi-cloud environments. Falcon CWP provides runtime protection for containers and Kubernetes alongside image assessment and CDR capabilities . **Pricing**: Flex licensing available (~$233.99/year for a single license per CDW listing) ; enterprise bundles quote-based. **Free tier**: None. **Best for**: CrowdStrike customers wanting workload protection integrated with endpoint and identity security—**trade-off**: workload protection is a module requiring appropriate Falcon tier.
-
-
-
-- **[Prisma Cloud Compute](https://www.paloaltonetworks.com/prisma/cloud)** (Palo Alto Networks)
-
-  **CWPP delivered as part of Prisma Cloud** (formerly Twistlock). Protects hosts, containers, and serverless across any cloud or datacenter. **Two editions**: **Enterprise Edition** (SaaS, Palo Alto manages Console) and **Compute Edition** (self-hosted, air-gapped support, Projects for multi-tenancy) . **Pricing**: Per-workload licensing; identical across editions. **Free tier**: None. **Best for**: enterprises wanting a single platform for CSPM and CWPP—**note**: Compute Edition is the choice for air-gapped or full-data-control environments .
-
-
-
-- **[Wiz Defend](https://www.wiz.io/)**
-
-  **Agentless cloud detection and response** extending Wiz's visibility to runtime threat detection. **Agentless Workload Detection** collects local logs from appliances (firewalls, gateways) that cannot run agents, correlating them with control plane events and Wiz Sensor runtime signals in the Wiz Signals data lake . **Pricing**: Quote-only. **Free tier**: None. **Best for**: Wiz customers wanting workload threat detection without agent deployment on every asset—**trade-off**: agentless detection complements but does not fully replace agent-based runtime protection for all workloads.
-
-
-
-- **[SentinelOne Singularity Cloud Workload Security](https://www.sentinelone.com/)**
-
-  **AI-driven runtime protection** for servers, VMs, and containers across on-premises, private cloud, and public clouds. Blocks ransomware, cryptojacking, and fileless attacks at execution with autonomous response at the workload level . **Pricing**: Quote-only; endpoint-based pricing models available. **Free tier**: None. **Best for**: organizations wanting autonomous runtime protection with AI-driven detection—**trade-off**: full CNAPP scope may require additional SentinelOne modules.
-
-
-
-- **[Sysdig Secure](https://sysdig.com/)**
-
-  **CNAPP built on open-source Falco** with deep system call visibility for runtime threat detection. Core built on Falco, sysdig OSS, and Cloud Custodian; unified security and monitoring; 100+ out-of-the-box runtime policies with MITRE ATT&CK mapping; serverless container support including inline Fargate scanning . **Pricing**: Simple node-based pricing (per protected node) . **Free tier**: Falco OSS is free. **Best for**: Kubernetes-heavy environments wanting Falco-native runtime security with commercial support—**trade-off**: agent deployment required for runtime; node-based pricing scales with cluster size .
-
-
-
-- **[Trend Micro Cloud One – Workload Security](https://www.trendmicro.com/)**
-
-  **Comprehensive detection and protection** purpose-built for server, cloud, and container environments with consistent security regardless of workload type. Rich API set for automation . **Pricing**: Subscription licensing (~$385–$435 per device for government edition per CDW-G listing) ; commercial quote-based. **Free tier**: None. **Best for**: organizations wanting workload security across hybrid environments with automation-friendly APIs.
-
-
-
-- **[Microsoft Defender for Servers](https://azure.microsoft.com/en-us/products/defender-for-cloud)**
-
-  **Threat detection and advanced protection** for Windows and Linux machines across Azure, AWS, GCP, and on-premises. **Plan 1** deploys Defender for Endpoint with hourly billing (cost-effective for intermittent VMs); **Plan 2** adds agentless network-layer threat detection and full server features . **Pricing**: Plan 1 per-hour; Plan 2 per-server. **Free tier**: None for workload protection. **Best for**: Microsoft-centric organizations wanting native server protection across multi-cloud—**trade-off**: Plan 2 required for agentless network detection.
-
-
-
-- **[Aqua Security](https://www.aquasec.com/)**
-
-  **Full-lifecycle CNAPP** securing containers, serverless, Kubernetes, and AI workloads. FedRAMP High Authorized; runtime protection detects threats and enforces compliance across cloud-native workloads; purpose-built AI workload security for LLM governance and model abuse detection . **Pricing**: AWS Marketplace tiers: Shift Left Standard **$50,000/year**; Protect Advanced **$100,000/year**; Ultimate **$150,000/year** . **Free tier**: None. **Best for**: regulated enterprises needing FedRAMP-authorized container and Kubernetes security with AI workload coverage.
-
-
-
-- **[Lacework FortiCNAPP](https://www.lacework.com/)** (Fortinet)
-
-  **AI-driven behavioral analytics** unifying CWPP, CSPM, and CIEM. SC Award 2025 winner for Best Cloud Workload Protection Solution. Correlates signals into composite alerts; agent-based and agentless deployment; customers report **75% reduction in compliance violations**, **100:1 alert-to-noise ratio**, and **80% faster investigations** . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations wanting behavioral anomaly detection with consolidated CNAPP—**trade-off**: Fortinet ecosystem integration post-acquisition.
-
-
-
-- **[Tenable Cloud Workload Protection](https://www.tenable.com/)**
-
-  **CWPP within Tenable Cloud Security** scanning VMs, containers, and serverless functions for vulnerabilities, secrets, sensitive data, malware, and misconfigurations . **Pricing**: Quote-only. **Free tier**: None. **Best for**: Tenable customers wanting workload scanning integrated with broader exposure management.
-
-
+| Company Size (Revenue / Valuation) | Product / Platform | Pricing (Specific Starting Tiers) | Free Tier / Trial Limits | Key Capabilities & Trade-offs |
+| :--- | :--- | :--- | :--- | :--- |
+| **~$3.0T Market Cap** / ~$245B Ann. Rev. | **[Microsoft Defender for Servers](https://azure.microsoft.com/en-us/products/defender-for-cloud)** | **Plan 1**: ~$0.0067/server/hr (~$4.91/server/mo); **Plan 2**: ~$0.020/server/hr (~$14.60/server/mo) billed on active server uptime. | **30-day free trial** per plan with full features; foundational CSPM is permanently free. | Host & container protection across Azure, AWS, GCP & on-prem. Plan 2 required for agentless network-layer detection. |
+| **~$110B Market Cap** / ~$8.0B Ann. Rev. | **[Prisma Cloud Compute](https://www.paloaltonetworks.com/prisma/cloud)** (Palo Alto Networks) | Credit-based licensing; modular entry configurations starting at **~$18,000/year** (CSPM) to **~$45,000/year** (full CNAPP suite). | **30-day free trial / PoC** via AWS Marketplace and direct sales; no permanent free tier. | Comprehensive host, container, and serverless runtime protection; available as SaaS (Enterprise) or self-hosted/air-gapped (Compute). |
+| **~$80B Market Cap** / ~$4.0B Ann. Rev. | **[CrowdStrike Falcon Cloud Workload Protection](https://www.crowdstrike.com/)** | Flex licensing starts at **~$233.99/year** per host/workload license (via CDW); enterprise bundles quote-based. | **15-day free trial** with full cloud runtime detection and response access; no permanent free tier. | Unified agent-based breach prevention across VMs, containers, and K8s; requires Falcon platform base. |
+| **~$55B Market Cap** / ~$5.5B Ann. Rev. | **[Lacework FortiCNAPP](https://www.lacework.com/)** (Fortinet) | Entry software licenses & starter deployment bundles starting at **~$22,000/year**; custom private offers via AWS Marketplace. | **30-day free trial** via AWS Marketplace and Fortinet portal; no permanent free tier. | AI-driven behavioral anomaly detection and Polygraph correlation uniting CWPP, CSPM, and CIEM; post-acquisition Fortinet integration. |
+| **~$15B Market Cap** / ~$1.7B Ann. Rev. | **[SentinelOne Singularity Cloud Workload Security](https://www.sentinelone.com/)** | Cloud workload protection benchmarked starting at **~$36.00/VM/month** (~$432/VM/year); custom contract private offers on AWS Marketplace. | **30-day free evaluation / PoC** available through enterprise request; no permanent free tier. | Autonomous runtime protection and active rollback for servers, VMs, and Kubernetes against ransomware and fileless exploits. |
+| **~$12B Valuation** (Private) / ~$500M+ ARR | **[Wiz Defend](https://www.wiz.io/)** | **Wiz Essential** starts at **$24,000/year** (min. 100 workloads @ $240/workload/yr); **Wiz Advanced** starts at **$38,000/year** (100 workloads). | **14-day free trial / PoC** with agentless visibility and Wiz Signals threat lake; no permanent free tier. | 100% agentless workload risk analysis complemented by lightweight Wiz Sensor runtime detection; high multi-cloud visibility. |
+| **~$6.5B Market Cap** / ~$1.8B Ann. Rev. | **[Trend Micro Cloud One – Workload Security](https://www.trendmicro.com/)** | Hourly Pay-As-You-Go starts at **$0.007/instance/hr** (Essentials) up to **$0.011/instance/hr** (Medium/1 vCPU) and **$0.032/instance/hr** (Large). Annual licenses ~$385–$435/device. | **30-day free trial** with full protection-hours access on AWS Marketplace; no permanent free tier. | Mature runtime IPS/IDS, integrity monitoring, anti-malware, and container security with rich automation APIs. |
+| **~$5.0B Market Cap** / ~$850M Ann. Rev. | **[Tenable Cloud Workload Protection](https://www.tenable.com/)** | Scoped per protected asset/resource, typically spanning **$28 to $90/asset/year** depending on volume; annual minimum contracts apply. | **Custom demo / scoped PoC** through sales; permanent free tier for standalone Nessus Essentials (limited to 16 IPs, vulnerability scanning only). | Scans virtual machines, container registries, and serverless functions for CVEs, secrets, and toxic combinations in multi-cloud assets. |
+| **~$3.0B Valuation** (Private) / ~$300M+ ARR | **[Sysdig Secure](https://sysdig.com/)** | Node-based subscription starting at **$72.00 per host/month** (~$864/host/year) on AWS Marketplace (often with 20-host commitment tiers). | **30-day free trial** with full runtime policies; open-source Falco engine is **100% free forever** for self-hosting. | Built natively on CNCF Falco eBPF telemetry with 100+ out-of-the-box MITRE ATT&CK runtime rules and Kubernetes drift prevention. |
+| **~$1.0B Valuation** (Private) / ~$100M+ ARR | **[Aqua Security](https://www.aquasec.com/)** | AWS Marketplace starting tiers: Shift Left Standard **$50,000/year**, Protect Advanced **$100,000/year**, and Ultimate **$150,000/year**. | **Custom 14- to 30-day guided PoC** on request; **Trivy open-source engine is 100% free forever** (unlimited scans). | Enterprise container, K8s, and AI workload runtime security with FedRAMP High authorization and granular supply chain controls. |
 
 ## Open-Source GitHub Projects
 
