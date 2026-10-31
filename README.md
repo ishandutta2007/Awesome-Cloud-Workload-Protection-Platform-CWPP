@@ -1,48 +1,42 @@
-# Awesome-Cloud-Workload-Protection-Platform-CWPP
+# 🛡️ Awesome Cloud Workload Protection Platform (CWPP)
 
-# Awesome-Cloud-Workload-Protection-Platform-CWPP
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cloud Workload Protection Platform (CWPP) Banner" width="100%">
+</p>
 
-**Top Cloud Workload Protection Platform CWPP (Opensource) 🌟 Star if you like it! 🌟**
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Runtime Protection, Container Security, Serverless Defense & Self-Hosted Workload Security*
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Workload Protection Platforms (CWPP)**. These tools enable organizations to secure virtual machines, containers, Kubernetes clusters, and serverless functions at runtime—detecting and blocking threats like ransomware, cryptojacking, container escapes, and fileless attacks—from fully managed platforms with AI-driven behavioral analytics to self-hosted runtime engines built on open-source foundations like Falco.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Workload-Protection-Platform-CWPP/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Workload-Protection-Platform-CWPP?style=for-the-badge&logo=apachespark&color=yellow" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Workload-Protection-Platform-CWPP/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Workload-Protection-Platform-CWPP?style=for-the-badge&color=orange" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Workload-Protection-Platform-CWPP/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0--1.0-blue.svg?style=for-the-badge" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 
+> **Curated directory of premier Cloud Workload Protection Platforms (CWPP), Cloud Detection and Response (CDR), Container Security, eBPF Telemetry, and Serverless Defense tools.**
 
-**Examples** include CrowdStrike Falcon CWP, Prisma Cloud Compute, Wiz, SentinelOne Singularity Cloud, Sysdig Secure, Trend Micro Cloud One, Microsoft Defender for Servers, Aqua Security, Lacework FortiCNAPP, and Tenable Cloud Workload Protection (the category leaders in commercial space).
+## 📌 Executive Summary
 
+Modern enterprise workloads span virtual machines, Kubernetes clusters, serverless containers, and hybrid data centers. **Cloud Workload Protection Platforms (CWPP)** safeguard workloads at runtime—detecting and intercepting ransomware, cryptomining, container escapes, fileless exploits, and privilege escalations.
 
+This repository catalogs industry-leading **SaaS enterprise suites** (with granular pricing and trial terms) and battle-tested **open-source security engines** (sorted by GitHub star count).
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted runtime security, container protection, and open workload defense. **Critical note**: The open-source CWPP landscape is anchored by **Falco**—the CNCF-graduated runtime engine that powers Sysdig Secure and serves as the de facto standard for container threat detection . **Tetragon** and **Tracee** offer eBPF-native alternatives with different enforcement models. **container-runtime-security** is the most feature-complete enforcement project. No open-source project matches CrowdStrike's AI-driven behavioral analytics or Prisma Cloud's full-lifecycle Defenders, but for runtime detection and enforcement, the open-source options are production-proven.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [⚖️ Disclaimer](#-disclaimer)
 
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global Cloud Workload Protection Platform (CWPP) market is estimated at approximately **$5.7B to $10.3B** (projected to reach over $30B by the early 2030s at an aggressive ~20–23% CAGR), driven by multi-cloud expansion, containerized microservices, and serverless architectures. The sector is **moderately fragmented and intensely competitive** rather than a winner-take-all market, marked by consolidation into CNAPP suites where hyperscalers (like Microsoft Defender for Cloud), pure-play cloud security pioneers (such as Wiz and Aqua Security), and enterprise cybersecurity incumbents (Palo Alto Networks, CrowdStrike, SentinelOne) vie for market share alongside an active open-source ecosystem.
 
-## SaaS/Hosted Platforms
+## 🏢 SaaS & Hosted Commercial Platforms
 
 | Company Size (Revenue / Valuation) | Product / Platform | Pricing (Specific Starting Tiers) | Free Tier / Trial Limits | Key Capabilities & Trade-offs |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,108 +51,102 @@ The global Cloud Workload Protection Platform (CWPP) market is estimated at appr
 | **~$3.0B Valuation** (Private) / ~$300M+ ARR | **[Sysdig Secure](https://sysdig.com/)** | Node-based subscription starting at **$72.00 per host/month** (~$864/host/year) on AWS Marketplace (often with 20-host commitment tiers). | **30-day free trial** with full runtime policies; open-source Falco engine is **100% free forever** for self-hosting. | Built natively on CNCF Falco eBPF telemetry with 100+ out-of-the-box MITRE ATT&CK runtime rules and Kubernetes drift prevention. |
 | **~$1.0B Valuation** (Private) / ~$100M+ ARR | **[Aqua Security](https://www.aquasec.com/)** | AWS Marketplace starting tiers: Shift Left Standard **$50,000/year**, Protect Advanced **$100,000/year**, and Ultimate **$150,000/year**. | **Custom 14- to 30-day guided PoC** on request; **Trivy open-source engine is 100% free forever** (unlimited scans). | Enterprise container, K8s, and AI workload runtime security with FedRAMP High authorization and granular supply chain controls. |
 
-## Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects
+
+Explore top-tier open-source Cloud Workload Protection Platforms, runtime security sensors, eBPF telemetry hooks, and Kubernetes security engines sorted by GitHub community star count:
+
+1. **[Trivy](https://github.com/aquasecurity/trivy)** [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)
+   - **Vulnerability, Misconfiguration & SBOM Scanner** (Apache-2.0, CNCF) — The most widely deployed security scanner for container images, file systems, Git repositories, virtual machine disks, and Kubernetes clusters.
+   - **Capabilities**: Comprehensive shift-left and runtime scanning, CVE detection, SBOM generation (SPDX/CycloneDX), secret detection, and Kubernetes cluster scanning via Trivy Operator.
+   - **Tech Stack**: Go | **Deployment**: CLI, CI/CD pipeline, Kubernetes Operator | **Best for**: Shift-left container security and vulnerability auditing.
+
+2. **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)
+   - **Open-Source XDR & SIEM Workload Protection** (GPL-2.0) — Unified host-based workload protection providing runtime security monitoring, file integrity monitoring (FIM), intrusion detection (HIDS), and compliance verification across physical, virtual, and cloud workloads.
+   - **Capabilities**: Active response to terminate threats, vulnerability detection, log data analysis, regulatory compliance monitoring (PCI DSS, HIPAA, CIS Benchmarks), and multi-cloud telemetry.
+   - **Tech Stack**: C, Python, Go | **Deployment**: Agent on Linux/Windows/macOS, central indexer/server | **Best for**: Unified host workload defense and compliance across hybrid cloud infrastructure.
+
+3. **[Kubescape](https://github.com/kubescape/kubescape)** [![GitHub stars](https://img.shields.io/github/stars/kubescape/kubescape?style=social&color=white)](https://github.com/kubescape/kubescape/stargazers)
+   - **Kubernetes Open-Source Security Platform** (Apache-2.0, CNCF Incubating) — Provides multi-cloud Kubernetes posture management, container scanning, and runtime threat detection powered by eBPF.
+   - **Capabilities**: Risk scoring, CIS benchmark compliance, RBAC visualization, image vulnerability scanning, network policy generation, and eBPF runtime malware detection.
+   - **Tech Stack**: Go | **Deployment**: CLI, Helm chart, In-cluster operator | **Best for**: Dedicated, end-to-end Kubernetes cluster and workload hardening.
+
+4. **[Falco](https://github.com/falcosecurity/falco)** [![GitHub stars](https://img.shields.io/github/stars/falcosecurity/falco?style=social&color=white)](https://github.com/falcosecurity/falco/stargazers)
+   - **Cloud-Native Runtime Threat Detection Engine** (Apache-2.0, CNCF Graduated) — The industry standard for Linux and Kubernetes runtime behavioral security and system call inspection.
+   - **Capabilities**: Kernel system call monitoring via eBPF/kmod, rich YAML rule language mapping to MITRE ATT&CK, plugin ecosystem for AWS CloudTrail/Okta/GitHub audit logs, and 100+ alert forwarding integrations.
+   - **Tech Stack**: C++, Go | **Deployment**: DaemonSet on K8s, standalone package | **Best for**: Real-time detection of container escapes, reverse shells, privilege escalations, and cryptojackers.
+
+5. **[Kyverno](https://github.com/kyverno/kyverno)** [![GitHub stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social&color=white)](https://github.com/kyverno/kyverno/stargazers)
+   - **Cloud-Native Kubernetes Policy Engine** (Apache-2.0, CNCF Graduated) — Purpose-built policy engine for Kubernetes admission control, runtime workload policy validation, mutation, and generation without requiring learning complex DSLs.
+   - **Capabilities**: Enforces security best practices (blocking root containers, validating read-only root filesystems), verifies container image signatures via Sigstore/Cosign, and generates cleanup policies.
+   - **Tech Stack**: Go | **Deployment**: In-cluster Kubernetes admission controller | **Best for**: Enforcing security guardrails and supply-chain verification at the Kubernetes admission gate.
+
+6. **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)
+   - **Rules Engine for Cloud Security & Compliance** (Apache-2.0, CNCF) — Lightweight governance engine for managing public cloud workloads across AWS, Azure, and GCP through simple YAML policies.
+   - **Capabilities**: Real-time compliance monitoring, resource inventory filtering, automated remediation (tagging, stopping unencrypted instances, quarantining security groups), and cost controls.
+   - **Tech Stack**: Python | **Deployment**: Serverless functions (AWS Lambda/Cloud Functions), CLI, CI/CD | **Best for**: Multi-cloud workload posture management and automated resource remediation.
+
+7. **[Tetragon](https://github.com/cilium/tetragon)** [![GitHub stars](https://img.shields.io/github/stars/cilium/tetragon?style=social&color=white)](https://github.com/cilium/tetragon/stargazers)
+   - **eBPF-Based Security Observability & Runtime Enforcement** (Apache-2.0, Cilium/Isovalent) — High-performance kernel-level runtime enforcement engine with real-time kill capabilities.
+   - **Capabilities**: In-kernel process termination (stops threats before syscall completion), deep Kubernetes-aware process, namespace, and network visibility, and declarative TracingPolicy CRDs.
+   - **Tech Stack**: Go, C (eBPF) | **Deployment**: Kubernetes DaemonSet | **Best for**: Low-overhead runtime blocking and real-time active containment at the kernel boundary.
+
+8. **[Tracee](https://github.com/aquasecurity/tracee)** [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/tracee?style=social&color=white)](https://github.com/aquasecurity/tracee/stargazers)
+   - **eBPF Runtime Security & Forensics Sensor** (Apache-2.0, Aqua Security) — Collects rich system-level telemetry and detects suspicious runtime behaviors in real time.
+   - **Capabilities**: Signature engine written in Go and Rego, detection of fileless execution, memory injection, kernel exploits, container escapes, and rich forensic timeline generation.
+   - **Tech Stack**: Go, C (eBPF) | **Deployment**: Container, CLI, DaemonSet | **Best for**: Threat investigation, forensic capture, and eBPF-based container threat intelligence.
+
+9. **[Gatekeeper](https://github.com/open-policy-agent/gatekeeper)** [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/gatekeeper?style=social&color=white)](https://github.com/open-policy-agent/gatekeeper/stargazers)
+   - **OPA-Driven Policy Controller for Kubernetes** (Apache-2.0, CNCF) — Enforces declarative policies and security constraints on cloud workloads using Open Policy Agent (OPA) and Rego.
+   - **Capabilities**: Validating and mutating webhook enforcement, continuous audit of existing Kubernetes resources against security policies, and parameterized ConstraintTemplates.
+   - **Tech Stack**: Go, Rego | **Deployment**: In-cluster admission controller | **Best for**: Enterprises standardizing policy-as-code across heterogeneous cloud environments.
+
+10. **[KubeArmor](https://github.com/kubearmor/KubeArmor)** [![GitHub stars](https://img.shields.io/github/stars/kubearmor/KubeArmor)](https://github.com/kubearmor/KubeArmor/stargazers)
+    - **LSM-Based Container Runtime Policy Enforcement** (Apache-2.0, CNCF Sandbox) — Enforces least-privilege access controls at the Linux Security Modules (AppArmor, SELinux, BPF-LSM) layer.
+    - **Capabilities**: Restricts process execution, sensitive file access, and socket creation within pods; telemetry exporting via gRPC to SIEM/observability systems; zero-trust runtime policy engine.
+    - **Tech Stack**: Go, C | **Deployment**: Kubernetes DaemonSet | **Best for**: Kernel-enforced zero-trust sandboxing and workload isolation.
+
+11. **[NeuVector](https://github.com/neuvector/neuvector)** [![GitHub stars](https://img.shields.io/github/stars/neuvector/neuvector?style=social&color=white)](https://github.com/neuvector/neuvector/stargazers)
+    - **Full-Lifecycle Container Security Platform** (Apache-2.0, SUSE) — Open-source end-to-end container security featuring Layer 7 container firewalling, vulnerability management, and runtime protection.
+    - **Capabilities**: Deep packet inspection (DPI) container firewall, behavioral baselining, automated process and file integrity protection, and CIS benchmark scanning.
+    - **Tech Stack**: C, C++, Go | **Deployment**: Kubernetes DaemonSet/Operator | **Best for**: Full-stack container network security, runtime firewalling, and packet-level inspection.
+
+12. **[container-runtime-security](https://github.com/aiagentmackenzie-lang/container-runtime-security)** [![GitHub stars](https://img.shields.io/github/stars/aiagentmackenzie-lang/container-runtime-security?style=social&color=white)](https://github.com/aiagentmackenzie-lang/container-runtime-security/stargazers)
+    - **eBPF Container Runtime Monitoring & AI Triage** — Real-time event monitoring with multi-signal correlation and AI triage advisory.
+    - **Capabilities**: 30 detection rules covering cryptojacking, reverse shells, container drift, and process injection; TC-based network blocking; ~73k events/sec throughput.
+    - **Tech Stack**: Go, C (eBPF) | **Deployment**: Kubernetes DaemonSet | **Best for**: AI-assisted eBPF runtime detection and telemetry experimentation.
 
 
+## 📈 Star History
 
-- **[Falco](https://github.com/falcosecurity/falco)**
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Workload-Protection-Platform-CWPP&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Workload-Protection-Platform-CWPP&type=date&legend=top-left)
 
-  **Cloud-native runtime security** (Apache 2.0, CNCF Graduated) — **the de facto standard for container and Kubernetes runtime threat detection**, and the open-source engine powering Sysdig Secure's behavioral detections . **Features**: **eBPF-based** monitoring of system calls across hosts, containers, Kubernetes, and cloud services (via plugins for AWS CloudTrail, GitHub, Okta); **YAML rule engine** with out-of-the-box rules for container escapes, cryptojacking, reverse shells, privilege escalation, and fileless attacks; **100+ integrations** for forwarding alerts to SIEM, Slack, and data lakes; streaming detection minimizes storage costs. **Tech stack**: C++, Go. **Deploy**: Self-hosted (DaemonSet on Kubernetes, Helm chart). **Trade-off**: **Runtime detection only**—no posture management, vulnerability scanning, or CIEM. Requires rule tuning to avoid alert fatigue. **Best for**: teams needing runtime threat detection for Kubernetes and containers—the foundation of the runtime layer in any open-source CWPP stack.
+## 🤝 How to Contribute
 
+Contributions are warmly welcomed! Help keep this guide up-to-date and comprehensive:
 
+1. 🍴 Fork this repository.
+2. 🌿 Create a feature branch (`git checkout -b feature/new-cwpp-entry`).
+3. 📝 Add or update tools following the existing format (include product name, URL, specific pricing details, free tier terms, or open-source star badges).
+4. 🚀 Commit your changes and push to your branch.
+5. 📬 Open a descriptive Pull Request.
 
-- **[Tetragon](https://github.com/cilium/tetragon)**
+## 💖 Support & Community
 
-  **eBPF-native runtime security and observability** (Apache 2.0) — **the enforcement-first alternative to Falco**, from Isovalent/Cilium. **Features**: **In-kernel enforcement** can kill processes before syscalls complete—not just alert after the fact; **Kubernetes-aware** process, file, and network visibility; **lower p99 CPU overhead** than Falco in some benchmarks; **TracingPolicy** CRDs for declarative security policies. **Tech stack**: Go, C (eBPF). **Deploy**: Self-hosted (DaemonSet on Kubernetes). **Trade-off**: **Smaller rule library than Falco**—fewer out-of-the-box detections; requires more custom policy authoring. **Best for**: teams wanting runtime enforcement (blocking, not just detecting) with eBPF-native performance—especially those already in the Cilium ecosystem.
+Thank you for exploring this curated repository! If you find this resource valuable for your cloud workload security architecture:
 
+- 🌟 **Star this repository** to bookmark and show your support!
+- 🍴 **Fork and share** it with your security, DevOps, and cloud engineering peers.
+- 💬 **Join our community on Discord**: [Join the Server](https://discord.gg/jc4xtF58Ve)
+- ☕ **Support the maintainer**: If you would like to buy a coffee or sponsor continuous updates, visit the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
+## ⚖️ Disclaimer
 
-- **[Tracee](https://github.com/aquasecurity/tracee)**
-
-  **eBPF runtime security and forensics** (Apache 2.0) — **the forensic-focused runtime sensor** from Aqua Security. **Features**: **Built-in signature library** for common threats; **Rego policy support** for custom detection logic; **rich event context** for forensics and investigation; **Kubernetes and container awareness**; integrates with Aqua Platform. **Tech stack**: Go, C (eBPF). **Deploy**: Self-hosted (DaemonSet, CLI). **Trade-off**: **Runtime detection and forensics only**—no posture or vulnerability management. Smaller community than Falco. **Best for**: teams already in the Aqua ecosystem or wanting eBPF runtime detection with Rego-based policy customization.
-
-
-
-- **[KubeArmor](https://github.com/kubearmor/KubeArmor)**
-
-  **LSM-based runtime policy enforcement** (Apache 2.0) — **the policy-enforcement layer for container workloads**, using AppArmor, SELinux, and BPF-LSM. **Features**: **Enforcement at kernel LSM level**—blocks file, process, and network operations based on policy; **Kubernetes-native** with CRDs; **container and node-level policies**; integrates with observability tools. **Tech stack**: Go, C. **Deploy**: Self-hosted (DaemonSet). **Trade-off**: **Enforcement only**—no detection library or threat intelligence; you define the policies. **Best for**: teams needing to enforce least-privilege policies on container workloads at the kernel level—complements Falco's detection.
-
-
-
-- **[container-runtime-security](https://github.com/aiagentmackenzie-lang/container-runtime-security)**
-
-  **eBPF-based container runtime security monitoring and enforcement** (license per repo) — **the most feature-complete open-source runtime enforcement project** with AI triage. **Features**: **30 detection rules** across 9 categories (Container Escape, Cryptojacking, Reverse Shell, Credential Access, Privilege Escalation, Container Drift, Network Anomaly, Process Injection, Known CVE); **7-rule enforcement safety protocol** with TC-based network blocking; **multi-signal correlation** (shell→network, DNS+TLS); **AI triage** via gRPC (advisory); **~73k events/sec** single-core throughput. **Tech stack**: Go, C (eBPF). **Deploy**: Self-hosted (Kubernetes). **Trade-off**: **eBPF kernel load/attach path code-complete but pending Linux runtime verification** (Phase C); AI triage degrades to neutral. Newer project with limited community validation. **Best for**: teams wanting eBPF-native enforcement (not just detection) with AI-assisted triage—willing to validate the runtime path before production use.
-
-
-
-- **[CWPP Design Studio](https://github.com/)**
-
-  **Offline Streamlit application for CWPP lifecycle design** (open source, per LinkedIn author post) — **the most practical open-source reference architecture for CWPP programs**. **Features**: Walks through **build-time** (image/IaC scanning, secrets, SBOM), **ship-time** (registry scanning, Sigstore signing, admission control), **run-time** (process/file/network monitoring for VMs vs. containers vs. functions), **risk intelligence** (multi-factor prioritization beyond CVSS—exploitability + exposure + runtime reachability + data sensitivity), and **unified dashboard** correlating build-time findings with runtime context ("this vulnerable package is actually loaded in memory") . **Tech stack**: Python (Streamlit). **Deploy**: Local (offline, no API keys). **Trade-off**: **Design and assessment tool**—it does not perform runtime protection; it helps you design and evaluate a CWPP program . **Best for**: architects and security leads wanting a structured framework for designing or assessing their CWPP deployment—especially those building a program from scratch.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Trivy** — Comprehensive scanner (Apache 2.0). Vulnerability, IaC, secrets, and SBOM scanning for images; CI/CD native. **Note**: Build-time scanner—pair with Falco for runtime. **Best for**: shift-left container security in CI/CD pipelines.
-
-- **Kubescape** — Kubernetes security platform (Apache 2.0, CNCF incubating). Posture, vulnerability, and runtime for K8s clusters. **Note**: Kubernetes-only—not multi-cloud CWPP. **Best for**: teams wanting a single tool for Kubernetes workload security.
-
-- **Kyverno** — Kubernetes admission controller (Apache 2.0). Policy enforcement via CRDs; signed-image verification via Sigstore. **Note**: Admission control only—not runtime detection. **Best for**: enforcing workload policies at the Kubernetes admission gate.
-
-
-
-**Frameworks for building custom systems**: Combine **Falco** for runtime detection with **Tetragon** or **KubeArmor** for enforcement, **Trivy** for build-time scanning, and **CWPP Design Studio** as a reference architecture—creating a composable open-source CWPP stack. **None of these match CrowdStrike's AI-driven behavioral analytics or Prisma Cloud's full-lifecycle Defenders**, but for runtime detection and enforcement, the open-source options are production-proven.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- CWPP platforms handling workload credentials and runtime telemetry must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls.
-
-- **The "runtime detection" vs. "runtime enforcement" vs. "build-time scanning" vs. "design framework" distinction is critical.** **Falco and Tracee** are **runtime detection**—they alert on threats but do not block them . **Tetragon and KubeArmor** are **runtime enforcement**—they block operations at the kernel or LSM level. **Trivy** is **build-time scanning**—it finds vulnerabilities before deployment. **CWPP Design Studio** is a **design framework**—it helps you architect a CWPP program but does not protect workloads . **Commercial platforms (CrowdStrike, Prisma Cloud, Wiz, SentinelOne, Sysdig, Trend Micro, Microsoft, Aqua, Lacework, Tenable)** bundle detection, enforcement, and scanning into unified products. **No single open-source project replaces a commercial CWPP.** Compose the stack based on your gaps.
-
-- **Falco is the runtime detection standard**—CNCF Graduated, eBPF-based, and the open-source engine behind Sysdig Secure . **The trade-off**: detection only—no enforcement, no posture, no vulnerability scanning. **Pair it with Tetragon or KubeArmor for enforcement, and Trivy for build-time scanning.**
-
-- **Tetragon's enforcement capability is a genuine differentiator**—it can kill processes before syscalls complete, not just alert after the fact. **The trade-off**: smaller rule library than Falco; requires more custom policy authoring. **For teams that need to block, not just detect, Tetragon is the strongest open-source option.**
-
-- **Prisma Cloud Compute Edition is the only commercial CWPP with a self-hosted, air-gapped option**—it supports Projects for multi-tenancy and full data control . **If you need commercial-grade CWPP in an air-gapped environment, it is the option to evaluate.**
-
-- **Wiz Defend's Agentless Workload Detection is uniquely valuable for unmonitorable assets**—virtual appliances, vendor-managed systems, and workloads that cannot run agents . **The trade-off**: agentless complements but does not fully replace agent-based runtime protection. **For teams with blind spots on appliances and gateways, it addresses a gap that pure agent-based tools cannot.**
-
-- **Pricing opacity varies.** CrowdStrike publishes Flex licensing (~$233.99/year per license) . Aqua publishes AWS Marketplace tiers ($50K–$150K/year) . Trend Micro government edition is ~$385–$435 per device . Prisma Cloud, Wiz, SentinelOne, Sysdig, Microsoft, Lacework, and Tenable require sales contact or tiered estimation. **Validate with direct vendor conversations against your workload count and runtime requirements.**
-
-- Self-hosted open-source solutions require proper infrastructure (Kubernetes for Falco/Tetragon, servers for management), security hardening for runtime sensors, and ongoing maintenance. **Runtime security tools have deep kernel-level visibility**—ensure your deployment meets your organization's security and performance requirements before deploying to production workloads.
-
-
+- This is a **community-curated** list — not exhaustive and not a commercial endorsement.
+- CWPP platforms handling workload credentials and runtime telemetry must comply with corporate governance and data protection regulations (GDPR, HIPAA, SOC 2, CCPA).
+- **Runtime Detection vs. Enforcement vs. Scanning**: Open-source tools like **Falco** and **Tracee** focus on **detection** (alerting on anomalies). Engines like **Tetragon** and **KubeArmor** perform **enforcement** (blocking malicious activity in-kernel). Tools like **Trivy** handle **build-time scanning**. Compose these components into an integrated defense-in-depth pipeline tailored to your infrastructure.
 
 ---
 
-
-
-**Made for cloud security engineers, platform teams, and organizations building transparent workload protection solutions.**
-
-Let's make Cloud Workload Protection more open, data-driven, and runtime-aware.
+<p align="center">
+  <b>Built with ❤️ for Cloud Security Engineers, Platform Teams, and DevSecOps Practitioners worldwide.</b>
+</p>
